@@ -1,0 +1,114 @@
+@font-face { font-family: antonio;
+			 src: url('Antonio-Light.ttf');
+     }
+
+
+body{
+  background-color:white;
+  color: black;
+  font-family: 'antonio', sans-serif;
+  overflow-x: hidden;
+	font-size: 30px;
+}
+
+
+
+#navbarSupportedContent, .navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-size: 30px;
+}
+
+#active{
+text-decoration:  underline black;
+}
+
+
+#textAboutUs{
+	font-size: 20px;
+	color: black;
+}
+
+.destaque {
+  position: relative;
+}
+
+.imgHalfBright{
+  filter: brightness(50%);
+	width: 100%;
+	margin-bottom: 2rem;        /* Footer height */
+
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'antonio', cursive;
+  color: white;
+  font-size: 70px;
+}
+
+.greyText {
+	color: grey;
+  font-size: 20px;
+ }
+
+.footer_background_color{
+	background-color: grey;
+
+}
+ .footer {
+   padding: 10px; /* margem interna  */
+ }
+
+ #textfooter{
+ 	font-size: 20px;
+ 	text-align: left;
+	color: white;
+ }
+
+
+
+.file_field{
+	border: 5px solid black;
+	border-radius: 30px;
+	background-color: #00CED1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 70px;
+
+}
+.center{
+	align-self: center;
+	padding: 100px;
+
+}
+.file_field:hover {
+	color: white;
+	opacity: 70%;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+min-height: 100vh
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
